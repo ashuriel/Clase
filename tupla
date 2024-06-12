@@ -1,0 +1,6 @@
+#Calcular la media de una lista de números.
+
+nota=[0.3,0.2,0.5,0.4,0.78,0.888,0.2545]
+
+promedio=sum(nota)/len(nota)
+print(promedio)
