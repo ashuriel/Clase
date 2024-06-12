@@ -1,0 +1,12 @@
+#Acceder y modificar elementos: Utiliza índices para acceder a elementos específicos en listas, tuplas o diccionarios. 
+# También puedes modificar los valores de los elementos si es necesario.
+
+numero=[10,20,30,40,50,60]
+primerN=numero[0]
+ultimoN=numero[-1]
+
+print(primerN)
+print(ultimoN)
+
+numero[1]=15
+print(numero)
