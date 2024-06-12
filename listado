@@ -1,0 +1,8 @@
+#Filtrar elementos: Utiliza listas y comprensiones para filtrar elementos basados en ciertos criterios. 
+# Por ejemplo, puedes filtrar una lista de números para obtener solo los números pares o impares, 
+# o filtrar una lista de cadenas para obtener solo las que contengan ciertas letras.
+    
+num=[1,2,3,4,5,6,7,8,9,10]
+impares=[num for num in num if num%2!=0]
+
+print(impares)
