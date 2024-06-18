@@ -12,12 +12,12 @@ while r==0:
     nota0=0
     while nota0==0:
         notauno=(input('Ingresa la nota de primer estudiante:'))
-        if notauno.isdigit:
+        if notauno.isdigit():
             notauno=int(notauno)
             if notauno<0:
                 print('No puede ser negativo')
             nota0==0
-        elif notauno.isalpha:
+        elif notauno.isalpha():
            print('No puede ser letras')
            nota0==0
         
@@ -28,12 +28,12 @@ while r==0:
     nota1=0
     while nota1==0:  
         notados=(input('Ingresa la segunda nota:'))
-        if notados.isdigit :
+        if notados.isdigit() :
             int(notados)
             if notados<0:
                 print('No puede ser negativa')
                 nota1==0
-        elif notados.isalpha:
+        elif notados.isalpha():
             print('No puede ser letras.')
             nota1==0
         else:
@@ -43,13 +43,13 @@ while r==0:
     nota2=0
     while nota2==0:
         notatres=(input('Ingresa el tercer nota:'))
-        if notatres.isdigit:
+        if notatres.isdigit():
             int(notatres)
             if notatres<0:
 
                 print('No puedes ingresa valor negativa.')
                 nota2==0
-        elif notatres.isalpha:
+        elif notatres.isalpha():
             print('No puede ser una letra')
             nota2==0
         else:
@@ -60,13 +60,13 @@ while r==0:
     nota3=0
     while nota3==0:
         notacua=input('Ingresa el cuarta nota:')
-        if notacua.isdigit:
+        if notacua.isdigit():
             int(notacua)
             if notacua<0:
 
                 print('No puedes ingresa valor negativa.')
                 nota3==0
-        elif notacua.isalpha:
+        elif notacua.isalpha():
             print('No puede ser una letra')
             nota3==0
         else:
