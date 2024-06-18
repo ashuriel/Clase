@@ -1,0 +1,44 @@
+
+
+r=0
+
+while r==0:
+
+    persona1={'nombre':' ','matricula':' '}
+    nota1=[0,0,0,0]
+    persona1['matricula']=input('Ingresa la matricula de primer estudiante:')
+    persona1['nombre']=input('Ingresa el nombre de primer estudiante:')
+
+    nota1[0]=int(input('Ingresa la nota de primer estudiante:'))
+    if nota1[0]<0 :
+        quit('No puedes ingresa valor negativa o una letra.')
+    elif nota1[0]>=0:  
+      
+        nota1[1]=int(input(':'))
+        if nota1[1]<0 :
+            quit('No puedes ingresa valor negativa.')
+        nota1[2]=int(input(':'))
+        if nota1[2]<0:
+            quit('No puedes ingresa valor negativa.')
+        nota1[3]=int(input(':'))
+        if nota1[3]<0:
+            quit('No puedes ingresa valor negativa.')
+
+    suma=sum(nota1)
+    promedio=float(suma/4)
+   
+    print(f'El promedio de la estudiante {persona1["nombre"]} {persona1["matricula"]} es {promedio}.' )
+
+    s=input("Deseas continuar?\nSi/No")
+    s=s.lower()
+
+    if s=='no':
+        r+=1
+    elif s=='si':
+        r==0
+    
+
+
+
+
+
