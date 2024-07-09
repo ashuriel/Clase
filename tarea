@@ -1,0 +1,23 @@
+texto='Buenos dias.'
+ultimoletra='s'
+x=0
+
+#En mayuscula
+print(texto.upper())
+#En minuscula
+print(texto.lower())
+#Retonar los primeros dos letras
+print(texto[0:2])
+#Los ultimos dos letras
+print(texto[-3:-1])
+
+#Cantidad de veces que repite el ultimo letra
+for letra in texto:
+    if letra==ultimoletra:
+        x+=1
+
+print(f"La ultimo letra 's' se repite {x} veces.") 
+
+
+#Retonar el texto en inverso
+print(texto[::-1])
